@@ -1,5 +1,6 @@
 #### Table of Contents
 
+- [Build and Test Effciency](#build-and-test-effciency)
 - [Description](#description)
 - [Structure](#structure)
   - [Inputs](#inputs)
@@ -17,6 +18,21 @@
   - [Additional Resources](#additional-resources)
     - [Networks](#networks)
     - [Documentation](#documentation)
+
+
+## Build and Test Effciency
+
+build
+```bash
+# change SM in Makefile, refer to https://developer.nvidia.com/cuda-gpus
+make
+```
+
+test effciency
+```bash
+python test_plugin.py
+```
+
 
 ## Description
 
@@ -129,3 +145,5 @@ The following resources provide a deeper understanding of the NMS algorithm:
 - [NMS algorithm](https://www.coursera.org/lecture/convolutional-neural-networks/non-max-suppression-dvrjH)
 - [NonMaxSuppression ONNX Op](https://github.com/onnx/onnx/blob/master/docs/Operators.md#NonMaxSuppression)
 - [MMCV](https://github.com/open-mmlab/mmcv) nms_rotated function
+
+
